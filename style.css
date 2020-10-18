@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #eee;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 15px;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+img {
+    max-width: 100%;
+}
+
+.caption {
+    font-size: 0.85rem;
+    color: #777;
+    text-align: center;
+}
+
+hr {
+    background-color: none;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    margin-top: 100px;
+    border-top: 2px solid #ccc;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 0.85rem;
+    color: #777;
+    text-align: center;
+}
