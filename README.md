@@ -13,6 +13,8 @@ Execute the `main.py` file. Example on Linux/Mac:
 $ python main.py
 ```
 
+Then visit `http://127.0.0.1:8888/index.html` from your browser.
+
 ## License
 
 The code and images are all licensed under [CC PDM 1.0][2] (i.e. Public Domain).
