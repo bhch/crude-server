@@ -1,6 +1,6 @@
 """ Crude Server
 
-This is supplementary code for a tutorial on writing HTTP servers from scratch.
+This is supplementary code for a tutorial about writing HTTP servers from scratch.
 
 To get a better understating, read the tutorial at this link: 
 
@@ -14,7 +14,9 @@ import mimetypes
 
  
 class TCPServer:
-    """Base server class for the actual HTTP Server"""
+    """Base server class for handling TCP connections. 
+    The HTTP server will inherit from this class.
+    """
 
     def __init__(self, host='127.0.0.1', port=8888):
         self.host = host
@@ -35,7 +37,7 @@ class TCPServer:
             print("Connected by", addr)
             
             # For the sake of this tutorial, 
-            # we're reading just the first 1024 bytes zsent by the client.
+            # we're reading just the first 1024 bytes sent by the client.
             data = conn.recv(1024) 
 
             response = self.handle_request(data)
