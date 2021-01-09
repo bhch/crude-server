@@ -2,7 +2,7 @@
 
 This is supplementary code for a tutorial about writing HTTP servers from scratch.
 
-To get a better understating, read the tutorial at this link: 
+To get a better understanding, read the tutorial at this link: 
 
 https://bhch.github.io/posts/2017/11/writing-an-http-server-from-scratch/
 
